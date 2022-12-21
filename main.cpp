@@ -36,8 +36,8 @@ int main() {
         err = abs(((b-a)/2));
     }while(err >= 0.000001);
 
-    int c=x*1000;
-    double d=(float)c/1000;
+    int c=x*10000;
+    double d=(float)c/10000;
     cout << d << endl;
     return 0;
 }
