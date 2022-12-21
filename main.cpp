@@ -34,7 +34,7 @@ int main() {
 
 
         err = abs(((b-a)/2));
-    }while(err >= 0.000001);
+    }while(err >= exp(-6));
 
     int c=x*10000;
     double d=(float)c/10000;
